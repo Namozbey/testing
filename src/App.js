@@ -33,6 +33,6 @@ const deleteItemToProps = dispatch => {
   }
 }
 
-
+// exported store, action to App.js
 
 export default connect(stateToProps, deleteItemToProps)(App);
